@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/diego0096/go-structures/variables"
+	"github.com/diego0096/go-structures/ejercicios"
+	"github.com/diego0096/go-structures/teclado"
 	"runtime"
 )
 
@@ -27,6 +29,13 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os) // %s significa que el valor se va a formatera como string
 	}
+
+	numero, text := ejercicios.Ejercicio1("200")
+	fmt.Println(numero)
+	fmt.Println(text)
+
+	teclado.IngresoNumeros()
+
 }
 
 // var (
