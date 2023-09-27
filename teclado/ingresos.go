@@ -39,4 +39,9 @@ func IngresoNumeros() {
 	}
 
 	fmt.Println(leyenda, numero1*numero2)
+
+	for {
+		fmt.Println("Hola")
+		break
+	}
 }
